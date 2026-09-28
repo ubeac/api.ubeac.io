@@ -1,0 +1,581 @@
+{
+  "units": [
+    {
+      "id": "0",
+      "name": "NA",
+      "abbr": "",
+      "description": "Unknown unit (not assigned)"
+    },
+    {
+      "id": "1",
+      "name": "Percent",
+      "abbr": "%",
+      "description": ""
+    },
+    {
+      "id": "2",
+      "name": "Centigrade",
+      "abbr": "°C",
+      "description": "Since the 19th century, the scientific and thermometry communities worldwide have used the phrase centigrade scale. Temperatures on the centigrade scale were often reported simply as degrees or, when greater specificity was desired, as degrees centigrade (symbol: °C)."
+    },
+    {
+      "id": "3",
+      "name": "Fahrenheit",
+      "abbr": "°F",
+      "description": "The Fahrenheit scale is a temperature scale based on one proposed in 1724 by Dutch–German–Polish physicist Daniel Gabriel Fahrenheit (1686–1736)."
+    },
+    {
+      "id": "4",
+      "name": "Kelvin",
+      "abbr": "K",
+      "description": "The Kelvin scale is an absolute thermodynamic temperature scale using as its null point absolute zero,the temperature at which all thermal motion ceases in the classical description of thermodynamics.The kelvin (symbol: K) is the base unit of temperature in the International System of Units (SI)."
+    },
+    {
+      "id": "5",
+      "name": "Meter",
+      "abbr": "m",
+      "description": "The meter is the base unit of length in some metric systems, including the International System of Units (SI). The SI unit symbol is m."
+    },
+    {
+      "id": "6",
+      "name": "Count",
+      "abbr": "count",
+      "description": "Acts as unit of a counter"
+    },
+    {
+      "id": "7",
+      "name": "Radians per second",
+      "abbr": "rad/s",
+      "description": ""
+    },
+    {
+      "id": "8",
+      "name": "Mile",
+      "abbr": "mi",
+      "description": "The mile is an English unit of length of linear measure equal to 5,280 feet, or 1,760 yards, and standardised as exactly 1,609.344 metres by international agreement in 1959."
+    },
+    {
+      "id": "9",
+      "name": "Inch",
+      "abbr": "in",
+      "description": "The inch is a unit of length in the (British) imperial and United States customary systems of measurement. It is equal to ​1⁄36 yard or ​1⁄12 of a foot."
+    },
+    {
+      "id": "10",
+      "name": "Foot",
+      "abbr": "ft",
+      "description": "The foot is a unit of length in the imperial and US customary systems of measurement. Since 1959, both units have been defined by international agreement as equivalent to 0.3048 meters exactly. In both systems, the foot comprises 12 inches and three feet compose a yard."
+    },
+    {
+      "id": "11",
+      "name": "Yard",
+      "abbr": "yd",
+      "description": "The yard is an English unit of length, in both the British imperial and US customary systems of measurement, that comprises 3 feet or 36 inches. It is by international agreement in 1959 standardized as exactly 0.9144 meters."
+    },
+    {
+      "id": "12",
+      "name": "Kilometre per hour",
+      "abbr": "kmph",
+      "description": "The kilometre per hour (American English: kilometer per hour) is a unit of speed, expressing the number of kilometres travelled in one hour."
+    },
+    {
+      "id": "13",
+      "name": "Meter per second",
+      "abbr": "mps",
+      "description": "Metre per second is an SI derived unit of both speed (scalar) and velocity (vector quantity which specifies both magnitude and a specific direction), defined by distance in metres divided by time in seconds."
+    },
+    {
+      "id": "14",
+      "name": "Mile per hour",
+      "abbr": "mph",
+      "description": "Miles per hour is an imperial and United States customary unit of speed expressing the number of statute miles covered in one hour. It is used in the United States, United Kingdom and many Commonwealth nations, particularly in the Caribbean region."
+    },
+    {
+      "id": "15",
+      "name": "Knot",
+      "abbr": "knot",
+      "description": "The knot is a unit of speed equal to one nautical mile per hour, exactly 1.852 km/h (approximately 1.15078 mph)"
+    },
+    {
+      "id": "16",
+      "name": "Atmosphere",
+      "abbr": "atm",
+      "description": "The standard atmosphere is a unit of pressure defined as 101325 Pa (1.01325 bar). It is sometimes used as a reference or standard pressure"
+    },
+    {
+      "id": "17",
+      "name": "Bar",
+      "abbr": "bar",
+      "description": "The bar is a metric unit of pressure, but is not approved as part of the International System of Units (SI). It is defined as exactly equal to 100,000 Pa, which is slightly less than the current average atmospheric pressure on Earth at sea level"
+    },
+    {
+      "id": "18",
+      "name": "Gravitational force",
+      "abbr": "g",
+      "description": "One g is the acceleration due to gravity at the Earth's surface and is the standard gravity (symbol: gn), defined as 9.80665 metres per second squared, or equivalently 9.80665 newtons of force per kilogram of mass."
+    },
+    {
+      "id": "19",
+      "name": "Pascal",
+      "abbr": "Pa",
+      "description": "The pascal is the SI derived unit of pressure used to quantify internal pressure, stress, Young's modulus and ultimate tensile strength. It is defined as one newton per square metre.[1] It is named after the French polymath Blaise Pascal."
+    },
+    {
+      "id": "20",
+      "name": "Absolute humidity",
+      "abbr": "%",
+      "description": "Units are grams of water vapor per cubic meter volume of air"
+    },
+    {
+      "id": "21",
+      "name": "Torr",
+      "abbr": "Torr",
+      "description": "The torr (symbol: Torr) is a unit of pressure based on an absolute scale, now defined as exactly 1/760 of a standard atmosphere (101325 Pa)."
+    },
+    {
+      "id": "22",
+      "name": "Decibel",
+      "abbr": "dB",
+      "description": "The decibel is a unit of measurement used to express the ratio of one value of a physical property to another on a logarithmic scale."
+    },
+    {
+      "id": "23",
+      "name": "Decibel-milliwatts",
+      "abbr": "dBm",
+      "description": "The decibel is a unit of measurement used to express the ratio of one value of a physical property to another on a logarithmic scale."
+    },
+    {
+      "id": "24",
+      "name": "Lux",
+      "abbr": "Lx",
+      "description": "Luminous flux emitted from a surface"
+    },
+    {
+      "id": "25",
+      "name": "Volt",
+      "abbr": "V",
+      "description": "The volt (symbol: V) is the derived unit for electric potential, electric potential difference, and electromotive force."
+    },
+    {
+      "id": "26",
+      "name": "Metre per second squared",
+      "abbr": "m/s²",
+      "description": "The SI unit of acceleration is the metre per second squared (m s−2), or metre per second per second, as the velocity in metres per second changes by the acceleration value, every second."
+    },
+    {
+      "id": "27",
+      "name": "Tesla",
+      "abbr": "T",
+      "description": "The tesla (symbol T) is a derived unit of the magnetic field strength (also, magnetic flux density) in the International System of Units. One tesla is equal to one weber per square metre"
+    },
+    {
+      "id": "28",
+      "name": "Radians per second squared",
+      "abbr": "rad/s²",
+      "description": "It is measured in radians per second squared, and is usually denoted by the Greek letter alpha (α )."
+    },
+    {
+      "id": "29",
+      "name": "Radian",
+      "abbr": "rad",
+      "description": "The radian is the SI unit for measuring angles, and is the standard unit of angular measure used in many areas of mathematics."
+    },
+    {
+      "id": "30",
+      "name": "Degree",
+      "abbr": "°",
+      "description": "A degree (in full, a degree of arc, arc degree, or arcdegree), usually denoted by ° (the degree symbol), is a measurement of a plane angle, defined so that a full rotation is 360 degrees."
+    },
+    {
+      "id": "31",
+      "name": "Degree per second",
+      "abbr": "°/s",
+      "description": ""
+    },
+    {
+      "id": "32",
+      "name": "bit",
+      "abbr": "b",
+      "description": ""
+    },
+    {
+      "id": "33",
+      "name": "Byte",
+      "abbr": "B",
+      "description": ""
+    },
+    {
+      "id": "34",
+      "name": "byte per second",
+      "abbr": "B/s",
+      "description": ""
+    },
+    {
+      "id": "35",
+      "name": "bit per second",
+      "abbr": "b/s",
+      "description": ""
+    },
+    {
+      "id": "36",
+      "name": "Revolutions per minute",
+      "abbr": "rpm",
+      "description": "it's used as a measure of how fast any machine is operating at a given time."
+    },
+    {
+      "id": "37",
+      "name": "Hertz",
+      "abbr": "Hz",
+      "description": ""
+    }
+
+  ],
+  "typeUnits": [
+    {
+      "type": 0,
+      "units": [ "*" ]
+    },
+    {
+      "type": 1,
+      "units": [ "*" ]
+    },
+    {
+      "type": 2,
+      "units": [ "30" ]
+    },
+    {
+      "type": 3,
+      "units": [ "5", "8", "9", "10", "11" ]
+    },
+    {
+      "type": 4,
+      "units": [ "2", "3", "4" ]
+    },
+    {
+      "type": 5,
+      "units": [ "20" ]
+    },
+    {
+      "type": 6,
+      "units": [ "25", "1" ]
+    },
+    {
+      "type": 7,
+      "units": [ "26", "18" ]
+    },
+    {
+      "type": 8,
+      "units": [ "27" ]
+    },
+    {
+      "type": 9,
+      "units": [ "29" ]
+    },
+    {
+      "type": 10,
+      "units": [ "5", "8", "9", "10", "11" ]
+    },
+    {
+      "type": 11,
+      "units": [ "24" ]
+    },
+    {
+      "type": 12,
+      "units": [ "16", "17", "19", "21" ]
+    },
+    {
+      "type": 13,
+      "units": [ "6" ]
+    },
+    {
+      "type": 14,
+      "units": [ "30" ]
+    },
+    {
+      "type": 15,
+      "units": [ "7", "31" ]
+    },
+    {
+      "type": 16,
+      "units": [ "22" ]
+    },
+    {
+      "type": 17,
+      "units": [ "22", "23" ]
+    },
+    {
+      "type": 18,
+      "units": [ "37" ]
+    },
+    {
+      "type": 19,
+      "units": [ "32", "33" ]
+    },
+    {
+      "type": 20,
+      "units": [ "32", "33" ]
+    },
+    {
+      "type": 21,
+      "units": [ "34", "35" ]
+    },
+    {
+      "type": 22,
+      "units": [ "36" ]
+    },
+    {
+      "type": 23,
+      "units": [ "32","33" ]
+    }
+  ],
+  "prefixes": [
+    {
+      "name": "",
+      "symbol": "",
+      "base10": "0",
+      "scale": "One"
+    },
+    {
+      "name": "yotta",
+      "symbol": "Y",
+      "base10": "24",
+      "scale": "Septillion"
+    },
+    {
+      "name": "zetta",
+      "symbol": "Z",
+      "base10": "21",
+      "scale": "Sextillion"
+    },
+    {
+      "name": "exa",
+      "symbol": "E",
+      "base10": "18",
+      "scale": "Quintillion"
+    },
+    {
+      "name": "peta",
+      "symbol": "P",
+      "base10": "15",
+      "scale": "Quadrillion"
+    },
+    {
+      "name": "tera",
+      "symbol": "T",
+      "base10": "12",
+      "scale": "Trillion"
+    },
+    {
+      "name": "giga",
+      "symbol": "G",
+      "base10": "9",
+      "scale": "Billion"
+    },
+    {
+      "name": "mega",
+      "symbol": "M",
+      "base10": "6",
+      "scale": "Million"
+    },
+    {
+      "name": "kilo",
+      "symbol": "k",
+      "base10": "3",
+      "scale": "Thousand"
+    },
+    {
+      "name": "hecto",
+      "symbol": "h",
+      "base10": "2",
+      "scale": "Hundred"
+    },
+    {
+      "name": "deca",
+      "symbol": "da",
+      "base10": "1",
+      "scale": "Ten"
+    },
+    {
+      "name": "deci",
+      "symbol": "d",
+      "base10": "-1",
+      "scale": "Tenth"
+    },
+    {
+      "name": "centi",
+      "symbol": "c",
+      "base10": "-2",
+      "scale": "Hundredth"
+    },
+    {
+      "name": "milli",
+      "symbol": "m",
+      "base10": "-3",
+      "scale": "Thousandth"
+    },
+    {
+      "name": "micro",
+      "symbol": "µ",
+      "base10": "-6",
+      "scale": "Millionth"
+    },
+    {
+      "name": "nano",
+      "symbol": "n",
+      "base10": "-9",
+      "scale": "Billionth"
+    },
+    {
+      "name": "pico",
+      "symbol": "p",
+      "base10": "-12",
+      "scale": "Trillionth"
+    },
+    {
+      "name": "femto",
+      "symbol": "f",
+      "base10": "-15",
+      "scale": "Quadrillionth"
+    },
+    {
+      "name": "atto",
+      "symbol": "a",
+      "base10": "-18",
+      "scale": "Quintillionth"
+    },
+    {
+      "name": "zepto",
+      "symbol": "z",
+      "base10": "-21",
+      "scale": "Sextillionth"
+    },
+    {
+      "name": "yocto",
+      "symbol": "y",
+      "base10": "-24",
+      "scale": "Septillionth"
+    }
+  ],
+  "types": [
+    {
+      "type": 0,
+      "name": "N/A",
+      "viewOrder": 1
+    },
+    {
+      "type": 1,
+      "name": "Custom",
+      "viewOrder": 3
+    },
+    {
+      "type": 2,
+      "name": "Location (GPS)",
+      "viewOrder": 8
+    },
+    {
+      "type": 3,
+      "name": "Distance",
+      "viewOrder": 4
+    },
+    {
+      "type": 4,
+      "name": "Temperature",
+      "viewOrder": 15
+    },
+    {
+      "type": 5,
+      "name": "Humidity",
+      "viewOrder": 6
+    },
+    {
+      "type": 6,
+      "name": "Voltage",
+      "viewOrder": 16
+    },
+    {
+      "type": 7,
+      "name": "Acceleration",
+      "viewOrder": 0
+    },
+    {
+      "type": 8,
+      "name": "MagneticField",
+      "viewOrder": 9
+    },
+    {
+      "type": 9,
+      "name": "RotationalMotion",
+      "viewOrder": 13
+    },
+    {
+      "type": 10,
+      "name": "Proximity",
+      "viewOrder": 12
+    },
+    {
+      "type": 11,
+      "name": "Illuminance",
+      "viewOrder": 7
+    },
+    {
+      "type": 12,
+      "name": "Pressure",
+      "viewOrder": 11
+    },
+    {
+      "type": 13,
+      "name": "Counter",
+      "viewOrder": 14
+    },
+    {
+      "type": 14,
+      "name": "Orientation",
+      "viewOrder": 10
+    },
+    {
+      "type": 15,
+      "name": "Gyroscope",
+      "viewOrder": 5
+    },
+    {
+      "type": 16,
+      "name": "Sound",
+      "viewOrder": 17
+    },
+    {
+      "type": 17,
+      "name": "SignalStrength",
+      "viewOrder": 2
+    },
+    {
+      "type": 18,
+      "name": "Processor",
+      "viewOrder": 2
+    },
+    {
+      "type": 19,
+      "name": "Memory",
+      "viewOrder": 2
+    },
+    {
+      "type": 20,
+      "name": "Disk Space",
+      "viewOrder": 2
+    },
+    {
+      "type": 21,
+      "name": "BandWidth",
+      "viewOrder": 2
+    },
+    {
+      "type": 22,
+      "name": "Revolution",
+      "viewOrder": 2
+    },
+    {
+      "type": 23,
+      "name": "Bus",
+      "viewOrder": 2
+    }
+  ]
+}

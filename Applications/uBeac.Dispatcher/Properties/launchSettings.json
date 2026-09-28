@@ -1,0 +1,25 @@
+{
+  "profiles": {
+    "uBeac.Dispatcher": {
+      "commandName": "Project"
+    },
+    "Development": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Production": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      }
+    },
+    "Nightly": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Nightly"
+      }
+    }
+  }
+}

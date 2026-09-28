@@ -1,0 +1,31 @@
+1- Building
+	{"TeamId" : 1}
+2- Dashboard
+
+3- Gateway
+	{"TeamId" : 1}
+4- GatewayData
+	{"DateTime" : -1,"GatewayId" : 1}
+5- File
+
+6- Floor
+	{"BuildingId" : 1}
+7- Product
+
+8- Firmware
+
+9- Manufacturer
+
+10- Team
+
+11- Permission
+	{"EntityId" : 1}, {"UserId" : 1}
+12- SensorData
+	{"DateTime" : -1,"SensorId" : 1}
+
+13- TraceInfo
+
+14- UserProfile
+
+15- Users
+	{"UserName" : 1}, {"Email" : 1}

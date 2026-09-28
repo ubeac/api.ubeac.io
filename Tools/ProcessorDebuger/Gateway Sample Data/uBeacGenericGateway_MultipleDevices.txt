@@ -1,0 +1,48 @@
+﻿[
+  {
+    "ip": "1C:F3:EE:0C:17:A9",
+    "ts": 1542326605, 
+    "sensors": [
+      {
+        "uid": "SignalStrength",
+		"unit": 1,
+    	"prefix": 0, 
+        "Type": 2,
+        "data": {
+          "rssi": -86,
+          "txPower": -59
+        }
+      },
+      {
+        "uid": "Temperature",
+		"unit": 2,
+    	"prefix": 0, 
+        "Type": 3,
+        "value": 26
+      }
+    ]
+  },
+  {
+    "mac": "1C:F3:EE:0C:17:AA",
+    "ts": 1542326605,    
+    "sensors": [
+      {
+        "uid": "SignalStrength",
+		"unit": 1,
+    	"prefix": 0, 
+        "Type": 2,
+        "data": {
+          "rssi": -86,
+          "txPower": -59
+        }
+      },
+      {
+        "uid": "Temp",
+		"unit": 2,
+    	"prefix": 0, 
+        "Type": 3,
+        "value": 39
+      }
+    ]
+  }
+]

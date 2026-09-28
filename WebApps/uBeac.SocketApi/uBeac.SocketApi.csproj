@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>0cf476d6-6b6b-46a3-9456-a4abdcf7dc2c</UserSecretsId>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Components\uBeac.Logging\uBeac.Logging.csproj" />
+    <ProjectReference Include="..\..\Components\uBeac.Messaging\uBeac.Messaging.csproj" />
+    <ProjectReference Include="..\..\Components\uBeac.Models\uBeac.Models.csproj" />
+    <ProjectReference Include="..\..\Components\uBeac.Notifications\uBeac.Notifications.csproj" />
+    <ProjectReference Include="..\..\Components\uBeac.Security\uBeac.Security.csproj" />
+    <ProjectReference Include="..\..\Components\uBeac.Web.Documentation\uBeac.Web.Documentation.csproj" />
+    <ProjectReference Include="..\..\Components\uBeac.WebSocket\uBeac.WebSocket.csproj" />
+    <ProjectReference Include="..\..\Components\uBeac.Web\uBeac.Web.csproj" />
+  </ItemGroup>
+
+</Project>

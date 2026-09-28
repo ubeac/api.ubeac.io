@@ -1,0 +1,63 @@
+  // Team
+  GetTeams: { method: 'GET', url: ApiServerUrl + 'Team/GetAll' },
+  GetTeamsById: { method: 'GET', url: ApiServerUrl + 'Team/GetById{?id*}' },
+  GetUserAssets: { method: 'GET', url: ApiServerUrl + 'Gateway/GetAll' },
+  AddTeam: { method: 'PUT', url: ApiServerUrl + 'Team/Add' },
+  DeleteTeam: { method: 'DELETE', url: ApiServerUrl + 'Team/Remove/{id}' },
+  UpdateTeam: { method: 'POST', url: ApiServerUrl + 'Team/Update' },
+
+  // Gateway
+  GetGatewayData: { method: 'GET', url: ApiServerUrl + 'IoT/GetGatewayData{?gatewayIds*}' },
+  GetSensorDataByGatewayDataId: { method: 'GET', url: ApiServerUrl + 'IoT/GetSensorDataByGatewayDataId' },
+  AddGatewayUrl: { method: 'POST', url: ApiServerUrl + 'Gateway/UpdateUrl' },
+  GetGatewaySecurity: { method: 'GET', url: ApiServerUrl + 'Gateway/GetSecurity{?id}' },
+  UpdateGatewaySecurity: { method: 'POST', url: ApiServerUrl + 'Gateway/UpdateSecurity' },
+
+
+  // Permission
+  AddPermission: { method: 'PUT', url: ApiServerUrl + 'Permission/Add' },
+  DeletePermission: { method: 'DELETE', url: ApiServerUrl + 'Permission/Remove/{id}' },
+  // GatewayData
+  // TODO: must fix in store
+  GetTagsSummary: { method: 'GET', url: ApiServerUrl + 'IoT/GetTagsSummary{?types*,gatewayIds*,deviceIds*}' },
+  GetSensorData: { method: 'GET', url: ApiServerUrl + 'IoT/GetSensorData{?sensorIds*,gatewayIds*,deviceIds*}' },
+  // Dashboard
+  GetDashboards: { method: 'GET', url: ApiServerUrl + 'Dashboard/GetAll' },
+  GetDashboardById: { method: 'GET', url: ApiServerUrl + 'Dashboard/GetById/{id}' },
+  AddDashboard: { method: 'PUT', url: ApiServerUrl + 'Dashboard/Add' },
+  DeleteDashboard: { method: 'DELETE', url: ApiServerUrl + 'Dashboard/Remove/{id}' },
+  UpdateDashboard: { method: 'POST', url: ApiServerUrl + 'Dashboard/Update' },
+  GetDashboardData: { method: 'GET', url: ApiServerUrl + 'Widget/GetByDashboardId/{id}' },
+  UpdateDashboardData: { method: 'POST', url: ApiServerUrl + 'Widget/UpdateGroup' },
+
+  // Assets
+  GetAssets: { method: 'GET', url: ApiServerUrl + 'Asset/GetAll' },
+  UpdateAsset: { method: 'POST', url: ApiServerUrl + 'Asset/Update' },
+  ReleaseAsset: { method: 'POST', url: ApiServerUrl + 'Asset/release' },
+  AddAsset: { method: 'PUT', url: ApiServerUrl + 'Asset/Add' },
+  // AssetsGetTag: { method: 'GET', url: ApiServerUrl + 'Asset/GetTags{?types*,gatewayIds*,tagIds*,assetIds*}' },
+  GetAssetsData: { method: 'GET', url: ApiServerUrl + 'Asset/GetData{?assetIds*}' },
+
+  // Device
+  GetDevices: { method: 'GET', url: ApiServerUrl + 'Device/GetAll{?deviceIds*,assetIds*}' },
+  UpdateDevice: { method: 'POST', url: ApiServerUrl + 'Device/Update' },
+  AddDevice: { method: 'PUT', url: ApiServerUrl + 'Device/Add' },
+  DeleteDevice: { method: 'DELETE', url: ApiServerUrl + 'Device/Remove/{id}' },
+  GetDeviceSummary: { method: 'GET', url: ApiServerUrl + 'IoT/GetDeviceSummary{?sensorIds*,gatewayIds*,deviceIds*}' },
+  // Sensor
+  UpdateSensor: { method: 'POST', url: ApiServerUrl + 'Sensor/Update' },
+  AddSensor: { method: 'PUT', url: ApiServerUrl + 'Sensor/Add' },
+
+  // Card
+  GetCards: { method: 'GET', url: ApiServerUrl + 'Widget/GetAll' },
+  GetCardById: { method: 'GET', url: ApiServerUrl + 'Widget/GetByDashboardId/{id}' },
+  AddCard: { method: 'PUT', url: ApiServerUrl + 'Widget/Add' },
+  DeleteCard: { method: 'DELETE', url: ApiServerUrl + 'Widget/Remove/{id}' },
+  UpdateCard: { method: 'POST', url: ApiServerUrl + 'Widget/Update' },
+  UpdateCardGroup: { method: 'POST', url: ApiServerUrl + 'Widget/UpdateGroup' },
+
+  // Admin
+  GetLogReport: { method: 'GET', url: ApiServerUrl + 'Admin/Log{?query*}' },
+  RunQuery: { method: 'GET', url: ApiServerUrl + 'Admin/Exec{?db*,query*}' },
+  ReportList: { method: 'GET', url: ApiServerUrl + 'Admin/Description' }
+}
