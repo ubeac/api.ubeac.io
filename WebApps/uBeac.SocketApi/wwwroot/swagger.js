@@ -7,7 +7,7 @@
         response_type: "password",
         scope: "openid profile socket roles",
         token_url: "connect/token",
-        client_secret: 'fbAF32#$sfh844hfgfbA45SGgha83!Srf4334#34g%gsE2'
+        client_secret: '<client-secret>'
     };
 
 

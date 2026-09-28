@@ -287,3 +287,7 @@ __pycache__/
 /Applications/uBeac.SensorProcessor/Properties/PublishProfiles/FolderProfile.pubxml
 /WebApps/uBeac.IdentityServer/Properties/PublishProfiles/FolderProfile2.pubxml
 /WebApps/uBeac.MqttHub/Properties/PublishProfiles/FolderProfile.pubxml
+
+# Secrets and archives moved out of the public tree
+_removed_from_repo/
+tempkey.rsa

@@ -8,7 +8,7 @@
         scope: "openid profile api idsrv roles",
         //scope: "openid profile api",
         token_url: "connect/token",
-        client_secret: "tVNfjasd23%3j%@adh2SAgJa453S$ahaSG(GRdfhi2534"
+        client_secret: "<client-secret>"
     };
 
 

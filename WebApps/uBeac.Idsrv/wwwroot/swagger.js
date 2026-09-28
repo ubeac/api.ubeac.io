@@ -7,7 +7,7 @@
         response_type: "password",
         scope: "openid profile roles idsrv",
         token_url: "connect/token",
-        client_secret: "fah3nS)GERJnf345baf@rf$s345!ngS(DFgshj#fg458G"
+        client_secret: "<client-secret>"
     };
 
 

@@ -13,7 +13,7 @@ namespace FileRemover
                 
         static string filePath = "D:\\Files\\ubeac-publicfiles\\";
 
-        static string uBeacConnection = "mongodb://ubeacuser:kCsR!hd739F$nAL{wt@mongodb1.ubeac.io:27017,mongodb2.ubeac.io:27017,mongodb3.ubeac.io:27017,mongodb4.ubeac.io:27017/uBeac?replicaSet=rs0&authSource=admin&retryWrites=true&serverSelectionTimeoutMS=5000&readPreference=secondary";
+        static string uBeacConnection = "mongodb://<db-user>:<db-password>@mongodb1.ubeac.io:27017,mongodb2.ubeac.io:27017,mongodb3.ubeac.io:27017,mongodb4.ubeac.io:27017/uBeac?replicaSet=rs0&authSource=admin&retryWrites=true&serverSelectionTimeoutMS=5000&readPreference=secondary";
         //static string uBeacConnection = "mongodb://192.168.0.1:27017/uBeac";
         private static IMongoClient _client = new MongoClient(uBeacConnection);
         private static IMongoDatabase _db = _client.GetDatabase("uBeac");
