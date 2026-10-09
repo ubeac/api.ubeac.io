@@ -2,6 +2,8 @@
 
 uBeac was a multi-tenant IoT platform for connecting off-the-shelf gateways, phones and custom devices, decoding their data, and turning it into live dashboards. This repository is its backend: ingestion over HTTP and MQTT, a queue-driven processing pipeline, the REST API, the identity server and the real-time push service.
 
+Created by [Momentaj](https://momentaj.com/), a Toronto AI engineering firm.
+
 > **Status: retired, published for reference.** uBeac was developed from 2017 to 2020 and ran as a hosted service at `ubeac.io`. The hosted service has been retired, and the source is published here under the MIT license. The code is a 2019 snapshot on .NET Core 2.2, which is out of support. **Read [Security notes](#17-known-limitations-and-security-notes) before running any part of it.**
 
 | Repository | What it is |
